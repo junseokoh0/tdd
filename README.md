@@ -13,3 +13,7 @@
 - amount 를 private으로 만들기
 - Dollar 부작용(side effect)?
 - Money 반림
+
+
+### 작동하는 깔끔한 코드를 만들자
+우선, 작동하는 코드를 만들고 깔끔한 코드를 만들자

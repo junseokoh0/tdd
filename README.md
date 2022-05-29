@@ -15,6 +15,9 @@
 - Money 반올림
 - ~~equals()~~
 - hashCode()
+- Equal null
+- Equal object
+
 
 
 ### 작동하는 깔끔한 코드를 만들자

@@ -1,8 +1,10 @@
 package personal.junseok.tdd;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class MoneyTest {
 
@@ -13,5 +15,10 @@ class MoneyTest {
         assertEquals(10, product.amount);
         product = five.times(3);
         assertEquals(15, product.amount);
+    }
+
+    @Test
+    void testEquality() {
+        assertEquals(new Dollar(5), new Dollar(5));
     }
 }

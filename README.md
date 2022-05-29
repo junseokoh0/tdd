@@ -12,7 +12,9 @@
 - ~~$5 X 2 = $10~~
 - amount 를 private으로 만들기
 - Dollar 부작용(side effect)?
-- Money 반림
+- Money 반올림
+- equals()
+- hashCode()
 
 
 ### 작동하는 깔끔한 코드를 만들자

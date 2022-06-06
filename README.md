@@ -21,7 +21,7 @@
 - Dollar/Franc 중복
 - ~~공용 equals~~
 - 공용 times
-- Franc과 Dollar 비교하기
+- ~~Franc과 Dollar 비교하기~~
 
 
 ### 작동하는 깔끔한 코드를 만들자

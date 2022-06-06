@@ -1,6 +1,6 @@
 package personal.junseok.tdd;
 
-public class Dollar {
+public class Dollar extends Money {
 
     private final int amount;
 

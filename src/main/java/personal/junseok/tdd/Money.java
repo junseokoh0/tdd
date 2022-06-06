@@ -1,7 +1,15 @@
 package personal.junseok.tdd;
 
-public class Money {
+public abstract class Money {
     protected int amount;
+
+    public static Dollar dollar(int amount) {
+        return new Dollar(amount);
+    }
+
+    public static Franc franc(int amount) {
+        return new Franc(amount);
+    }
 
     @Override
     public boolean equals(Object object) {
@@ -9,4 +17,6 @@ public class Money {
         return this.amount == money.amount
                 && getClass().equals(money.getClass());
     }
+
+    abstract Money times(int multiplier);
 }

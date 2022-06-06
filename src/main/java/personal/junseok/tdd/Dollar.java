@@ -1,20 +1,13 @@
 package personal.junseok.tdd;
 
-public class Dollar {
-
-    private final int amount;
+public class Dollar extends Money {
 
     public Dollar(int amount) {
-        this.amount = amount;
+        super.amount = amount;
     }
 
     public Dollar times(int multiplier) {
-        return new Dollar(this.amount * multiplier);
+        return new Dollar(super.amount * multiplier);
     }
 
-    @Override
-    public boolean equals(Object object) {
-        Dollar dollar = (Dollar) object;
-        return amount == dollar.amount;
-    }
 }

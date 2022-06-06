@@ -2,19 +2,17 @@ package personal.junseok.tdd;
 
 public class Franc extends Money {
 
-    private final int amount;
-
     public Franc(int amount) {
-        this.amount = amount;
+        super.amount = amount;
     }
 
     public Franc times(int multiplier) {
-        return new Franc(this.amount * multiplier);
+        return new Franc(super.amount * multiplier);
     }
 
     @Override
     public boolean equals(Object object) {
         Franc franc = (Franc) object;
-        return amount == franc.amount;
+        return super.amount == franc.amount;
     }
 }

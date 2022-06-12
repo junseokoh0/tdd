@@ -13,8 +13,8 @@ public class Money {
         return new Dollar(amount, "USD");
     }
 
-    public static Franc franc(int amount) {
-        return new Franc(amount, "CHF");
+    public static Money franc(int amount) {
+        return new Money(amount, "CHF");
     }
 
     @Override

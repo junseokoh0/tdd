@@ -2,8 +2,11 @@ package personal.junseok.tdd;
 
 public class Franc extends Money {
 
+    public final String currency;
+
     public Franc(int amount) {
         super.amount = amount;
+        currency = "CHF";
     }
 
     public Money times(int multiplier) {
@@ -12,7 +15,7 @@ public class Franc extends Money {
 
     @Override
     String currency() {
-        return "CHF";
+        return currency;
     }
 
 }

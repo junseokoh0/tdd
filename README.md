@@ -18,12 +18,12 @@
 - Equal null
 - Equal object
 - ~~5CHF X 2 = 10CHF~~
-- Dollar/Franc 중복
+- ~~Dollar/Franc 중복~~
 - ~~공용 equals~~
 - ~~공용 times~~
 - ~~Franc과 Dollar 비하기~~
 - ~~통화?~~
-- testFrancMultiplication을 지워야 할까?
+- ~~testFrancMultiplication 삭제~~
 
 ### Notion
 #### 💡 주기

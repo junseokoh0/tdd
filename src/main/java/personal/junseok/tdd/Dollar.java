@@ -4,11 +4,11 @@ public class Dollar extends Money {
 
     public Dollar(int amount, String currency) {
         super.amount = amount;
-        super.currency = "USD";
+        super.currency = currency;
     }
 
     public Money times(int multiplier) {
-        return new Dollar(super.amount * multiplier, null);
+        return Money.dollar(super.amount * multiplier);
     }
 
 }

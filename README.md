@@ -5,7 +5,7 @@
 - [6장. 돌아온 '모두를 위한 평등'](https://github.com/junseokoh0/tdd/wiki/6%EC%9E%A5.-%EB%8F%8C%EC%95%84%EC%98%A8-'%EB%AA%A8%EB%91%90%EB%A5%BC-%EC%9C%84%ED%95%9C-%ED%8F%89%EB%93%B1')  
 - [7장. 사과와 오렌지](https://github.com/junseokoh0/tdd/wiki/7%EC%9E%A5.-%EC%82%AC%EA%B3%BC%EC%99%80-%EC%98%A4%EB%A0%8C%EC%A7%80)  
 - [8장. 객체 만들기](https://github.com/junseokoh0/tdd/wiki/8%EC%9E%A5.-%EA%B0%9D%EC%B2%B4-%EB%A7%8C%EB%93%A4%EA%B8%B0)
-- [9장. 우리가 사는 시간]()
+- [9장. 우리가 사는 시간](https://github.com/junseokoh0/tdd/wiki/9%EC%9E%A5.-%EC%9A%B0%EB%A6%AC%EA%B0%80-%EC%82%AC%EB%8A%94-%EC%8B%9C%EA%B0%84)
 
 ### 🔖 To-do list
 - $5 + 10CHF = $10(환율이 2:1일 경우)
@@ -22,7 +22,7 @@
 - ~~공용 equals~~
 - 공용 times
 - ~~Franc과 Dollar 비하기~~
-- 통화?
+- ~~통화?~~
 - testFrancMultiplication을 지워야 할까?
 
 ### Notion

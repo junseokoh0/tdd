@@ -1,6 +1,6 @@
 package personal.junseok.tdd;
 
-public abstract class Money {
+public class Money {
     protected int amount;
     public String currency;
 
@@ -28,6 +28,8 @@ public abstract class Money {
         return this.currency;
     }
 
-    abstract Money times(int multiplier);
+    public Money times(int amount) {
+        return null;
+    }
 
 }

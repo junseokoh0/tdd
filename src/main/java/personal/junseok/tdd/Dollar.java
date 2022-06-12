@@ -2,20 +2,13 @@ package personal.junseok.tdd;
 
 public class Dollar extends Money {
 
-    public final String currency;
-
-    public Dollar(int amount) {
+    public Dollar(int amount, String currency) {
         super.amount = amount;
-        currency = "USD";
+        super.currency = "USD";
     }
 
     public Money times(int multiplier) {
-        return new Dollar(super.amount * multiplier);
-    }
-
-    @Override
-    String currency() {
-        return currency;
+        return new Dollar(super.amount * multiplier, null);
     }
 
 }

@@ -2,13 +2,14 @@ package personal.junseok.tdd;
 
 public abstract class Money {
     protected int amount;
+    public String currency;
 
     public static Dollar dollar(int amount) {
-        return new Dollar(amount);
+        return new Dollar(amount, "USD");
     }
 
     public static Franc franc(int amount) {
-        return new Franc(amount);
+        return new Franc(amount, "CHF");
     }
 
     @Override
@@ -18,6 +19,10 @@ public abstract class Money {
                 && getClass().equals(money.getClass());
     }
 
+    public String currency() {
+        return this.currency;
+    }
+
     abstract Money times(int multiplier);
-    abstract String currency();
+
 }
